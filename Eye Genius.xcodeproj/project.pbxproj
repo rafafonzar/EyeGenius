@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		E0B9524B2BF6973500AE51E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9524A2BF6973500AE51E4 /* AppDelegate.swift */; };
 		E0B9524D2BF6973500AE51E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9524C2BF6973500AE51E4 /* SceneDelegate.swift */; };
-		E0B9524F2BF6973500AE51E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9524E2BF6973500AE51E4 /* ViewController.swift */; };
-		E0B952522BF6973500AE51E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B952502BF6973500AE51E4 /* Main.storyboard */; };
+		E0B9524F2BF6973500AE51E4 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9524E2BF6973500AE51E4 /* FirstScreen.swift */; };
 		E0B952542BF6973E00AE51E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B952532BF6973E00AE51E4 /* Assets.xcassets */; };
 		E0B952572BF6973E00AE51E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B952552BF6973E00AE51E4 /* LaunchScreen.storyboard */; };
 		E0B952622BF6973F00AE51E4 /* Eye_GeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B952612BF6973F00AE51E4 /* Eye_GeniusTests.swift */; };
@@ -39,8 +38,7 @@
 		E0B952472BF6973500AE51E4 /* Eye Genius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye Genius.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B9524A2BF6973500AE51E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0B9524C2BF6973500AE51E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0B9524E2BF6973500AE51E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E0B952512BF6973500AE51E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0B9524E2BF6973500AE51E4 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		E0B952532BF6973E00AE51E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B952562BF6973E00AE51E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0B952582BF6973E00AE51E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +99,7 @@
 			children = (
 				E0B9524A2BF6973500AE51E4 /* AppDelegate.swift */,
 				E0B9524C2BF6973500AE51E4 /* SceneDelegate.swift */,
-				E0B9524E2BF6973500AE51E4 /* ViewController.swift */,
-				E0B952502BF6973500AE51E4 /* Main.storyboard */,
+				E0B9524E2BF6973500AE51E4 /* FirstScreen.swift */,
 				E0B952532BF6973E00AE51E4 /* Assets.xcassets */,
 				E0B952552BF6973E00AE51E4 /* LaunchScreen.storyboard */,
 				E0B952582BF6973E00AE51E4 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				E0B952572BF6973E00AE51E4 /* LaunchScreen.storyboard in Resources */,
 				E0B952542BF6973E00AE51E4 /* Assets.xcassets in Resources */,
-				E0B952522BF6973500AE51E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B9524F2BF6973500AE51E4 /* ViewController.swift in Sources */,
+				E0B9524F2BF6973500AE51E4 /* FirstScreen.swift in Sources */,
 				E0B9524B2BF6973500AE51E4 /* AppDelegate.swift in Sources */,
 				E0B9524D2BF6973500AE51E4 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E0B952502BF6973500AE51E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0B952512BF6973500AE51E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0B952552BF6973E00AE51E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,7 +431,6 @@
 				INFOPLIST_FILE = "Eye Genius/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +442,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +457,6 @@
 				INFOPLIST_FILE = "Eye Genius/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +468,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
